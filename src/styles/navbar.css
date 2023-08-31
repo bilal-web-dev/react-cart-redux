@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    background-color: rgb(50, 144, 244);
+    padding: 1.5rem;
+    align-items: center;
+
+}
+
+.logo{
+    color: rgb(254, 255, 255);
+    font-size: large
+}
+
+.links{
+    display: flex;
+    width: 50%;
+    margin: 3px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.links > a {
+    margin: 0px 20px;
+    padding: 0 10px;
+    color: rgb(254, 255, 255);
+    
+}

@@ -1,0 +1,52 @@
+.top {
+  
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.cartItem {
+    width: 90%;
+    height: 40%;
+    border: 5px solid rgb(161, 161, 161);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.bottom {
+  height: 25vh;
+  
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.bottom > p{
+    margin: 6px;
+}
+
+.cartImg{
+    height: 50%;
+    width: 30%;
+    object-fit: contain;
+}
+
+.button{
+    padding: 4px;
+    margin: 4px;
+    font-size: large;
+    cursor: pointer;
+    &:hover{
+        color: red;
+    }
+}
